@@ -31,6 +31,7 @@ config:
       container_name: container
       pod_name: instance
     stream: stream
+  parser: docker
   # parsers: # Allow to define custom parsers. The key here is the same as the one in the [PARSER] section of parsers.conf file.
   #  - Name: json
   #    Format: json
